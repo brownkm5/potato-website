@@ -1,0 +1,19 @@
+body {
+  margin: 0px; }
+
+.landing-page {
+  min-width: 1250px;
+  min-height: 1000px;
+  background-color: #bda38f; }
+  .landing-page .header-nav div {
+    display: inline-block; }
+  .landing-page .header-nav .left-nav span {
+    color: white; }
+  .landing-page .header-nav .right-nav span {
+    color: white; }
+  .landing-page .header-nav .right-nav .caps {
+    text-transform: capitalize; }
+  .landing-page .header-image img {
+    width: 200px; }
+
+/*# sourceMappingURL=styles.css.map */

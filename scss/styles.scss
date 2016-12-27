@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+}
+.landing-page{
+  min-width: 1250px;
+  min-height: 1000px;
+  background-color: rgb(189,	163,	143);
+  .header-nav {
+    div {
+      display: inline-block;
+    }
+    .left-nav {
+      span {
+        color: white;
+      }
+    }
+    .right-nav {
+      span {
+        color: white;
+      }
+      .caps {
+        text-transform: capitalize;
+      }
+    }
+  }
+  .header-image {
+    img {
+      width: 200px;
+    }
+  }
+}
