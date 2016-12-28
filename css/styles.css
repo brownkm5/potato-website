@@ -3,17 +3,94 @@ body {
 
 .landing-page {
   min-width: 1250px;
-  min-height: 1000px;
-  background-color: #bda38f; }
+  min-height: 620px;
+  background-color: #bda38f;
+  padding-top: 5px; }
   .landing-page .header-nav div {
     display: inline-block; }
-  .landing-page .header-nav .left-nav span {
-    color: white; }
-  .landing-page .header-nav .right-nav span {
-    color: white; }
-  .landing-page .header-nav .right-nav .caps {
-    text-transform: capitalize; }
-  .landing-page .header-image img {
-    width: 200px; }
+  .landing-page .header-nav .left-nav {
+    font-size: 25px; }
+    .landing-page .header-nav .left-nav img {
+      vertical-align: middle; }
+    .landing-page .header-nav .left-nav span {
+      vertical-align: middle;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400; }
+    .landing-page .header-nav .left-nav .tm {
+      vertical-align: text-top;
+      font-size: 15px;
+      font-weight: 100; }
+  .landing-page .header-nav .right-nav {
+    vertical-align: middle;
+    font-size: 16px;
+    margin-top: 10px; }
+    .landing-page .header-nav .right-nav span {
+      margin-right: 30px;
+      vertical-align: middle;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      color: white; }
+    .landing-page .header-nav .right-nav .caps {
+      text-transform: capitalize; }
+    .landing-page .header-nav .right-nav .buy {
+      border: 1px solid white;
+      border-radius: 50px;
+      padding: 4px 9px; }
+      .landing-page .header-nav .right-nav .buy span {
+        margin: 0px; }
+  .landing-page .header {
+    text-align: center;
+    margin-top: 85px;
+    color: white;
+    font-family: 'Roboto', sans-serif; }
+    .landing-page .header h1 {
+      font-size: 45px;
+      margin-bottom: 20px;
+      font-weight: 300; }
+    .landing-page .header h3 {
+      font-size: 21px;
+      margin-top: 17px;
+      font-weight: 100; }
+    .landing-page .header .header-image img {
+      width: 550px; }
+
+#about:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background-image: url("../images/potato-background.jpg");
+  width: 100%;
+  height: 620px;
+  background-size: contain;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); }
+
+#about {
+  min-width: 1250px;
+  min-height: 620px;
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  color: #7c7c7c;
+  text-align: center; }
+  #about .spacer {
+    height: 50px; }
+  #about .header .title {
+    font-size: 45px;
+    font-weight: 100; }
+  #about .header h5 {
+    font-size: 22px; }
+    #about .header h5 .potato {
+      font-weight: 500; }
+    #about .header h5 .comes {
+      font-weight: 100; }
 
 /*# sourceMappingURL=styles.css.map */

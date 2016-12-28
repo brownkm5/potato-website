@@ -1,31 +1,133 @@
 body {
   margin: 0px;
 }
+
+//landing page
 .landing-page{
   min-width: 1250px;
-  min-height: 1000px;
+  min-height: 620px;
   background-color: rgb(189,	163,	143);
+  padding-top: 5px;
   .header-nav {
     div {
       display: inline-block;
     }
     .left-nav {
+      font-size: 25px;
+      img {
+        vertical-align: middle;
+      }
       span {
+        vertical-align: middle;
         color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+      }
+      .tm {
+        vertical-align: text-top;
+        font-size: 15px;
+        font-weight: 100;
       }
     }
     .right-nav {
+      vertical-align: middle;
+      font-size: 16px;
+      margin-top: 10px;
       span {
+        margin-right: 30px;
+        vertical-align: middle;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
         color: white;
       }
       .caps {
         text-transform: capitalize;
       }
+      .buy{
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 4px 9px;
+        span {
+          margin: 0px;
+        }
+      }
     }
   }
-  .header-image {
-    img {
-      width: 200px;
+  .header {
+    text-align: center;
+    margin-top: 85px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    h1 {
+      font-size: 45px;
+      margin-bottom: 20px;
+      font-weight: 300;
+    }
+    h3 {
+      font-size: 21px;
+      margin-top: 17px;
+      font-weight: 100;
+    }
+    .header-image {
+      img {
+        width: 550px;
+      }
     }
   }
+}
+
+//about page
+//blurs the background for this section of the page
+#about:before {
+  content: "";
+  position: absolute;;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('../images/potato-background.jpg');
+  width: 100%;
+  height: 620px;
+  background-size: contain;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+#about {
+  //used for background blur
+  min-width: 1250px;
+  min-height: 620px;
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+  color: rgb(124, 124, 124);
+  text-align: center;
+
+  .spacer {
+    height: 50px;
+  }
+  .header {
+    .title {
+      font-size: 45px;
+      font-weight: 100;
+    }
+    h5 {
+      font-size: 22px;
+      .potato {
+        font-weight: 500;
+      }
+      .comes {
+        font-weight: 100;
+      }
+    }
+  }
+
+
 }
