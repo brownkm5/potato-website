@@ -89,7 +89,8 @@ body {
   background-image: url('../images/potato-background.jpg');
   width: 100%;
   height: 620px;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
@@ -111,7 +112,7 @@ body {
   text-align: center;
 
   .spacer {
-    height: 50px;
+    height: 30px;
   }
   .header {
     .title {
@@ -128,6 +129,44 @@ body {
       }
     }
   }
+  .potato-examples {
+    img {
+      margin-top: 40px;
+      width: 600px;
+    }
+  }
 
+}
 
+// #features:before {
+//   content: "";
+//   position: absolute;;
+//   left: 0;
+//   right: 0;
+//   z-index: -1;
+//
+//   display: block;
+//   background-image: url('../images/sack-background.png');
+//   width: 100%;
+//   height: 620px;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//
+//   -webkit-filter: blur(6px);
+//   -moz-filter: blur(6px);
+//   -o-filter: blur(6px);
+//   -ms-filter: blur(6px);
+//   filter: blur(6px);
+// }
+
+#features {
+  min-width: 1250px;
+  min-height: 620px;
+  background-image: url('../images/potato-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  // position: relative;
+  // left: 0;
+  // right: 0;
+  // z-index: 0;
 }
