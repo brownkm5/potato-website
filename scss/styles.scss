@@ -118,11 +118,14 @@ body {
     .title {
       font-size: 45px;
       font-weight: 100;
+      text-shadow: 0 0 1px rgba(0, 0, 0, .4);
     }
     h5 {
       font-size: 22px;
+      text-shadow: 0 0 1px rgba(0, 0, 0, .4);
       .potato {
         font-weight: 500;
+        text-shadow: 0 0 0px rgba(0, 0, 0, .4);
       }
       .comes {
         font-weight: 100;
@@ -138,35 +141,86 @@ body {
 
 }
 
-// #features:before {
-//   content: "";
-//   position: absolute;;
-//   left: 0;
-//   right: 0;
-//   z-index: -1;
-//
-//   display: block;
-//   background-image: url('../images/sack-background.png');
-//   width: 100%;
-//   height: 620px;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//
-//   -webkit-filter: blur(6px);
-//   -moz-filter: blur(6px);
-//   -o-filter: blur(6px);
-//   -ms-filter: blur(6px);
-//   filter: blur(6px);
-// }
-
-#features {
+//nutrition page
+#nutrition {
   min-width: 1250px;
   min-height: 620px;
   background-image: url('../images/potato-background.png');
   background-size: cover;
   background-repeat: no-repeat;
-  // position: relative;
-  // left: 0;
-  // right: 0;
-  // z-index: 0;
+
+  padding-top: 40px;
+  text-align: center;
+
+  .header {
+    color: white;
+    span {
+      font-weight: 100;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+    h3 {
+      margin-top: 0px;
+      font-weight: 100;
+      font-size: 45px;
+      span {
+        font-weight: 400;
+        font-size: 38px;
+        letter-spacing: normal;
+      }
+      .tm {
+        font-weight: 100;
+        font-size: 20px;
+        vertical-align: text-top;
+      }
+    }
+  }
+  .potato-facts {
+    img {
+      width: 450px;
+      float: none;
+    }
+    span {
+      display: inline-block;
+      color: white;
+      margin-right: 40px;
+      font-size: 18px;
+      text-align: center;
+      font-weight: 100;
+    }
+    .number {
+      font-size: 40px;
+      font-family: 'Roboto';
+      margin-right: 0px;
+    }
+  }
+}
+
+#features {
+  min-width: 1250px;
+  min-height: 620px;
+  background-image: url('../images/features-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 40px;
+  .header {
+    color: rgb(152,	121,	68);
+    font-weight: 100;
+    h3 {
+      font-weight: 100;
+      margin-top: 0px;
+    }
+    span {
+      font-size: 18px;
+      letter-spacing: .6px;
+      .potato {
+        font-weight: 500;
+      }
+      .tm {
+        font-weight: 100;
+        vertical-align: top;
+      }
+    }
+  }
 }

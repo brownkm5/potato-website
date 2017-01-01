@@ -86,22 +86,82 @@ body {
     height: 30px; }
   #about .header .title {
     font-size: 45px;
-    font-weight: 100; }
+    font-weight: 100;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.4); }
   #about .header h5 {
-    font-size: 22px; }
+    font-size: 22px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.4); }
     #about .header h5 .potato {
-      font-weight: 500; }
+      font-weight: 500;
+      text-shadow: 0 0 0px rgba(0, 0, 0, 0.4); }
     #about .header h5 .comes {
       font-weight: 100; }
   #about .potato-examples img {
     margin-top: 40px;
     width: 600px; }
 
-#features {
+#nutrition {
   min-width: 1250px;
   min-height: 620px;
   background-image: url("../images/potato-background.png");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  text-align: center; }
+  #nutrition .header {
+    color: white; }
+    #nutrition .header span {
+      font-weight: 100;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    #nutrition .header h3 {
+      margin-top: 0px;
+      font-weight: 100;
+      font-size: 45px; }
+      #nutrition .header h3 span {
+        font-weight: 400;
+        font-size: 38px;
+        letter-spacing: normal; }
+      #nutrition .header h3 .tm {
+        font-weight: 100;
+        font-size: 20px;
+        vertical-align: text-top; }
+  #nutrition .potato-facts img {
+    width: 450px;
+    float: none; }
+  #nutrition .potato-facts span {
+    display: inline-block;
+    color: white;
+    margin-right: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 100; }
+  #nutrition .potato-facts .number {
+    font-size: 40px;
+    font-family: 'Roboto';
+    margin-right: 0px; }
+
+#features {
+  min-width: 1250px;
+  min-height: 620px;
+  background-image: url("../images/features-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 40px; }
+  #features .header {
+    color: #987944;
+    font-weight: 100; }
+    #features .header h3 {
+      font-weight: 100;
+      margin-top: 0px; }
+    #features .header span {
+      font-size: 18px;
+      letter-spacing: .6px; }
+      #features .header span .potato {
+        font-weight: 500; }
+      #features .header span .tm {
+        font-weight: 100;
+        vertical-align: top; }
 
 /*# sourceMappingURL=styles.css.map */
