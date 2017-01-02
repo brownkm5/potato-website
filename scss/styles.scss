@@ -2,6 +2,9 @@ body {
   margin: 0px;
 }
 
+.caps {
+  text-transform: uppercase;
+}
 //landing page
 .landing-page{
   min-width: 1250px;
@@ -40,9 +43,7 @@ body {
         font-weight: 100;
         color: white;
       }
-      .caps {
-        text-transform: capitalize;
-      }
+
       .buy{
         border: 1px solid white;
         border-radius: 50px;
@@ -214,6 +215,7 @@ body {
     span {
       font-size: 18px;
       letter-spacing: .6px;
+
       .potato {
         font-weight: 500;
       }
@@ -221,6 +223,90 @@ body {
         font-weight: 100;
         vertical-align: top;
       }
+    }
+  }
+}
+
+#buy {
+  background-color: rgb(240,	240,	240);
+  min-width: 1250px;
+  min-height: 720px;
+  text-align: center;
+  padding-top: 40px;
+
+  .header {
+    span {
+      font-size: 40px;
+      font-family: 'Roboto';
+      font-weight: 300;
+      color: rgb(139, 139, 139);
+    }
+    margin-bottom: 70px;
+  }
+
+  .options {
+    .option {
+      margin: 0px;
+      width: 250px;
+      height: 500px;
+      border-right: 2px solid rgb(230, 230, 230);
+      display: inline-block;
+
+      h5 {
+        margin-top: 0px;
+        font-weight: 100;
+        color: rgb(139, 139, 139);
+        font-size: 21px;
+
+        .potato {
+          font-weight: 500;
+          color: rgb(105, 105, 105);
+        }
+        .tm {
+          font-weight: 100;
+          vertical-align: top;
+          color: rgb(105, 105, 105);
+        }
+      }
+
+      ul {
+        padding-left: 40px;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 90px;
+
+        li {
+          list-style: initial;
+          color: rgb(183, 183, 183);
+          font-size: 19px;
+          font-weight: 100;
+        }
+      }
+
+      .order {
+        color: rgb(184,	224,	189);
+        border: 1px solid rgb(184,	224,	189);
+        font-size: 13px;
+        border-radius: 50px;
+        padding: 4px 25px;
+        cursor: pointer;
+      }
+      .price {
+        span {
+          font-size: 12px;
+          color: rgb(183, 183, 183);
+        }
+      }
+      .potato-image {
+        img {
+          height: 150px;
+          margin-top: 40px;
+        }
+      }
+    }
+
+    .team {
+      border-right: 0px;
     }
   }
 }
