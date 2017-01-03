@@ -310,3 +310,30 @@ body {
     }
   }
 }
+
+.footer {
+  height: 90px;
+  min-width: 1250px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 40px;
+  color: rgb(175, 175, 175);
+  font-weight: 100;
+
+  .left-nav {
+    margin-left: 250px;
+    display: inline-block;
+    margin-right: 300px;
+    a {
+      color: rgb(140, 140, 140);
+      text-decoration: underline;
+    }
+  }
+  .right-nav {
+    display: inline-block;
+    font-size: 14px;
+    span {
+      cursor: pointer;
+      margin-right: 20px;
+    }
+  }
+}

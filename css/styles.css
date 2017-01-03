@@ -222,4 +222,25 @@ body {
   #buy .options .team {
     border-right: 0px; }
 
+.footer {
+  height: 90px;
+  min-width: 1250px;
+  background-color: white;
+  padding-top: 40px;
+  color: #afafaf;
+  font-weight: 100; }
+  .footer .left-nav {
+    margin-left: 250px;
+    display: inline-block;
+    margin-right: 300px; }
+    .footer .left-nav a {
+      color: #8c8c8c;
+      text-decoration: underline; }
+  .footer .right-nav {
+    display: inline-block;
+    font-size: 14px; }
+    .footer .right-nav span {
+      cursor: pointer;
+      margin-right: 20px; }
+
 /*# sourceMappingURL=styles.css.map */
